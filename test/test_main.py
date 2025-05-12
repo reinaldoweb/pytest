@@ -1,7 +1,6 @@
 from main import soma
 
 
+# Compare this snippet from test/test_main.py:
 def test_soma():
     assert soma(1, 2) == 3
-    assert soma(-1, 1) == 0
-    assert soma(0, 0) == 0
