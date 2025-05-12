@@ -14,7 +14,7 @@ jobs:
           python-version: 3.10
       - name: Instala dependencias
         run: |
-          pyton -m pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install pytest
       - name: Teste com pytest
         run: |
